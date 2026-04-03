@@ -610,6 +610,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "Nexperia 2N7002BK,215"
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -829,7 +832,7 @@
 			(pin input line
 				(at -6.35 0 0)
 				(length 2.54)
-				(name ""
+				(name "Gate"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -847,7 +850,7 @@
 			(pin passive line
 				(at 1.27 5.08 270)
 				(length 2.54)
-				(name ""
+				(name "Drain"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -865,7 +868,7 @@
 			(pin passive line
 				(at 1.27 -5.08 90)
 				(length 2.54)
-				(name ""
+				(name "Source"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -884,6 +887,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "OSEN OSP80N03T"
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1103,7 +1109,7 @@
 			(pin input line
 				(at -6.35 0 0)
 				(length 2.54)
-				(name ""
+				(name "Gate"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1121,7 +1127,7 @@
 			(pin passive line
 				(at 1.27 5.08 270)
 				(length 2.54)
-				(name ""
+				(name "Drain"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1139,7 +1145,7 @@
 			(pin passive line
 				(at 1.27 -5.08 90)
 				(length 2.54)
-				(name ""
+				(name "Source"
 					(effects
 						(font
 							(size 1.27 1.27)
