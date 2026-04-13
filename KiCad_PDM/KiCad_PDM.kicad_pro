@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|125870717|139674522|43749e1f-8f90-4337-858d-2af13fa31e28|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|125870717|63924522|d0b635c4-132c-4e6c-926b-7ef3742d0cc2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|132370717|16285732|d4a932db-e398-4dda-b087-e70c733e31d2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|132370717|183785732|fb3aa80b-b959-4c41-9bcd-032ecd3ad8f5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|39870717|16285732|ab60b707-8c2b-42f0-abe4-9bb825537610|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|39870717|183785732|ffd2a38b-e4a6-4ddc-8dba-80cda300d750|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -131,7 +156,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.0,
         "min_microvia_drill": 0.0,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -247,7 +272,7 @@
           "drill": 0.5
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -525,10 +550,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Production/Fab/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Production/PDM.step",
       "svg": "",
       "vrml": ""
     },
