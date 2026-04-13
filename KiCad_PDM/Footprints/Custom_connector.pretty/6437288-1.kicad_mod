@@ -546,14 +546,14 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -19.25 17)
-		(size 5 5)
+		(size 6 6)
 		(drill 3.4)
 		(layers "*.Mask")
 		(uuid "8043cb5e-5af7-4f03-8f3d-e236538fa751")
 	)
 	(pad "" np_thru_hole circle
 		(at 19.25 17)
-		(size 5 5)
+		(size 6 6)
 		(drill 3.4)
 		(layers "*.Mask")
 		(uuid "cd3afd50-d314-4f8c-9722-d91b1e2efc85")
@@ -830,9 +830,90 @@
 		(remove_unused_layers no)
 		(uuid "032ffa5c-e5a6-4015-84c5-3cb0f4595785")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "F.Fab" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "c06f5ca5-14dd-48c9-9df6-ca7ba36b3767")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -22.35 17)
+					(mid -16.15 17)
+					(end -22.35 17)
+				)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "F.Fab" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "401bf825-4f4c-49ee-b648-68b2a66dd908")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 16.15 17)
+					(mid 22.35 17)
+					(end 16.15 17)
+				)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "6437288-1.stp"
-		(hide yes)
 		(offset
 			(xyz 0 -36.49999945 14.20999982)
 		)

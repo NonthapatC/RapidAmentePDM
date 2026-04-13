@@ -53,16 +53,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.61 20.25)
-		(end 7.61 20.25)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00d8dd3e-6efa-4676-9599-0740dc95c6fd")
-	)
-	(fp_line
 		(start -2.57 3.7)
 		(end -2.57 20.25)
 		(stroke
@@ -91,6 +81,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ad6d5c23-dc61-420a-8bdb-ba2870fbe26f")
+	)
+	(fp_line
+		(start -2.57 20.25)
+		(end 7.61 20.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00d8dd3e-6efa-4676-9599-0740dc95c6fd")
 	)
 	(fp_line
 		(start -0.485 3.7)
@@ -521,8 +521,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 2.54 16.66)
-		(size 5 5)
-		(drill 6)
+		(size 6 6)
+		(drill 6.25)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "cd7f6be2-6b7a-4e1b-a309-eb4c912b7311")
 	)

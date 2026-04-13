@@ -1,4 +1,4 @@
-26760617600756011
+26764173426307405
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59240,6 +59240,13 @@ DTM13-12PA
 0
 12
 12
+Custom_connector
+XFCN T66145145-1500
+
+
+0
+6
+1
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -72089,6 +72096,13 @@ MountingHole
 ToolingHole_1.152mm
 Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order
 mounting
+0
+0
+0
+MountingHolesCustom
+MountingHole_NPTH_3.5_6.25SB
+
+
 0
 0
 0
