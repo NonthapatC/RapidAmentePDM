@@ -2957,7 +2957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2828866.html"
 			(at 106.68 109.22 0)
 			(effects
 				(font
@@ -3063,7 +3063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C7467238.html"
 			(at 198.12 104.14 0)
 			(effects
 				(font
@@ -3375,7 +3375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2907232.html"
 			(at 80.01 95.25 0)
 			(effects
 				(font
@@ -3995,7 +3995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2907269.html"
 			(at 93.98 109.22 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C407451.html"
 			(at 80.01 87.63 0)
 			(effects
 				(font
@@ -4956,7 +4956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C3097783.html"
 			(at 129.54 100.33 0)
 			(effects
 				(font
@@ -5059,7 +5059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2907265.html"
 			(at 181.61 90.17 0)
 			(effects
 				(font
@@ -5373,7 +5373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933461.html"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -5686,7 +5686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFETs_Nexperia-2N7002-215_C65189.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C65189.html"
 			(at 200.406 122.936 0)
 			(effects
 				(font
@@ -5794,7 +5794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1711.html"
 			(at 245.11 104.14 0)
 			(effects
 				(font
@@ -5899,7 +5899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2907287.html"
 			(at 209.55 129.54 0)
 			(effects
 				(font
@@ -6216,7 +6216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFETs_Nexperia-2N7002-215_C65189.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C65189.html"
 			(at 86.614 101.854 0)
 			(effects
 				(font
@@ -6424,7 +6424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C965812.html"
 			(at 201.93 129.54 0)
 			(effects
 				(font
