@@ -58,32 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "items_not_allowed|125870717|139674522|43749e1f-8f90-4337-858d-2af13fa31e28|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|125870717|63924522|d0b635c4-132c-4e6c-926b-7ef3742d0cc2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|132370717|16285732|d4a932db-e398-4dda-b087-e70c733e31d2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|132370717|183785732|fb3aa80b-b959-4c41-9bcd-032ecd3ad8f5|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|39870717|16285732|ab60b707-8c2b-42f0-abe4-9bb825537610|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|39870717|183785732|ffd2a38b-e4a6-4ddc-8dba-80cda300d750|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -553,7 +528,7 @@
       "plot": "../Production/Fab/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../Production/PDM.step",
+      "step": "../Production/MK1_PDM.step",
       "svg": "",
       "vrml": ""
     },
@@ -616,10 +591,10 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
