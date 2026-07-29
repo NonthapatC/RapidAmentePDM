@@ -1,0 +1,10 @@
+(version 1)
+
+(rule "Connector Clearance Exception"
+  (condition "A.intersectsArea('DiffPair_Breakout') && A.type == 'track' && B.type == 'track'")
+  (constraint clearance (min 0.2mm))
+  (constraint diff_pair_gap (min 0.2mm)))
+
+(rule "Bigger Ground Clearance for Selected Nets"
+  (condition "A.type == 'zone' && (B.netClass == 'Batt_voltage' || B.netClass == 'Diff_120_CAN_IN1')")
+  (constraint clearance (min 0.5mm)))
