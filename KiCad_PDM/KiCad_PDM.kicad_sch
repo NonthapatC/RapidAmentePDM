@@ -15090,10 +15090,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95908f37-dc20-4755-8c77-f72e7abb345e")
 		(property "Reference" "C58"
-			(at 181.61 220.0909 0)
+			(at 181.61 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15103,8 +15102,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 181.61 222.6309 0)
+		(property "Value" "470uF"
+			(at 181.61 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18642,10 +18641,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e84ed80e-9299-4899-b5fa-358d6c53ac67")
 		(property "Reference" "C57"
-			(at 156.21 220.0909 0)
+			(at 156.21 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18655,8 +18653,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 156.21 222.6309 0)
+		(property "Value" "470uF"
+			(at 156.21 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
