@@ -159,7 +159,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.12,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.005,
@@ -535,7 +535,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.2,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -546,7 +546,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -558,10 +558,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": ""
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.3,
         "diff_pair_width": 0.12,
         "name": "Diff_120_CAN_IN1",
