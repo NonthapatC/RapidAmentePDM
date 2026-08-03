@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.16,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -551,6 +551,16 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.3,
+        "diff_pair_width": 0.1717,
+        "name": "Can_Diff_Pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -558,7 +568,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Can_Diff_Pair",
+        "pattern": "Can+"
+      },
+      {
+        "netclass": "Can_Diff_Pair",
+        "pattern": "Can-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -715,16 +734,16 @@
       {
         "filename": "STM32 V2.kicad_sch",
         "name": "STM32 V2",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "8915ffe2-11bb-4ead-bd16-7c6ebfd7e0ea"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R25",
     "variants": []
   },
   "sheets": [
     [
       "8915ffe2-11bb-4ead-bd16-7c6ebfd7e0ea",
-      "Root"
+      "STM32 V2"
     ]
   ],
   "text_variables": {},
